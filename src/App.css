@@ -1,0 +1,36 @@
+.country-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1024px;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.search input {
+  width: 80%;
+  height: 30px;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+.search .btn {
+  background-color: rgb(103, 103, 255);
+  color: #fff;
+  font-size: 18px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.search .btn:hover {
+  background-color: rgb(68, 68, 165);
+}
